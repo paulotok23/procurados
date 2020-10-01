@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 01-Out-2020 às 15:52
+-- Tempo de geração: 01-Out-2020 às 16:19
 -- Versão do servidor: 10.4.11-MariaDB
 -- versão do PHP: 7.2.28
 
@@ -21,6 +21,21 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `loginproc`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `admins`
+--
+
+CREATE TABLE `admins` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `nome` varchar(255) NOT NULL,
+  `user` varchar(255) NOT NULL,
+  `senha` varchar(32) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `identificacao` int(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -48,6 +63,12 @@ INSERT INTO `usuario` (`id`, `nome`, `user`, `senha`, `email`) VALUES
 --
 
 --
+-- Índices para tabela `admins`
+--
+ALTER TABLE `admins`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Índices para tabela `usuario`
 --
 ALTER TABLE `usuario`
@@ -56,6 +77,12 @@ ALTER TABLE `usuario`
 --
 -- AUTO_INCREMENT de tabelas despejadas
 --
+
+--
+-- AUTO_INCREMENT de tabela `admins`
+--
+ALTER TABLE `admins`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `usuario`
