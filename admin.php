@@ -56,7 +56,7 @@
                 <div class="card">
                     <div class="card-header">Login</div>
                     <div class="card-body">
-                        <form action="login.php" method="POST">
+                        <form action="login-adm.php" method="POST">
                             <div class="form-group row">
                                 <label for="user" class="col-md-4 col-form-label text-md-right">Usuário</label>
                                 <div class="col-md-6">

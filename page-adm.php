@@ -56,7 +56,7 @@
                 <div class="card">
                     <div class="card-header">Login</div>
                     <div class="card-body">
-                        <form action="login.php" method="POST">
+                    <form action="login.php" method="POST">
                             
                     </form>
                 </div>
