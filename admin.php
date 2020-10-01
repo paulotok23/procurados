@@ -92,7 +92,7 @@
                                 <button type="submit" class="btn btn-primary">
                                     Entrar
                                 </button>
-                                <a href="page-adm.php" class="btn btn-link">
+                                <a href="esqueci.php" class="btn btn-link">
                                     Esqueci minha senha?
                                 </a>
                             </div>
