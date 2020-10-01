@@ -72,6 +72,13 @@
                             </div>
 
                             <div class="form-group row">
+                                <label for="id" class="col-md-4 col-form-label text-md-right">Identificação</label>
+                                <div class="col-md-6">
+                                    <input type="id" id="id" class="form-control" name="id" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
                                 <div class="col-md-6 offset-md-4">
                                     <div class="checkbox">
                                         <label>
@@ -85,7 +92,7 @@
                                 <button type="submit" class="btn btn-primary">
                                     Entrar
                                 </button>
-                                <a href="#" class="btn btn-link">
+                                <a href="page-adm.php" class="btn btn-link">
                                     Esqueci minha senha?
                                 </a>
                             </div>
